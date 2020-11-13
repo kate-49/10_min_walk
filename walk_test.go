@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func WalkTest(t *testing.T) {
+func TestRun(t *testing.T) {
 
 	tests := []struct {
 		input []string
