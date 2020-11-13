@@ -16,6 +16,6 @@ $sut->tenMinuteWalk(['w', 's', 'e', 'e', 'n', 'n', 'e', 's', 'w', 'w']) # => tru
 
 $sut->tenMinuteWalk?(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w']) # => false
 
-$sut->tenMinuteWalk?(['w', 's', 'e', 's', 's', 'e', 's', 'w', 'n', 'n']) # => false
+$sut->tenMinuteWalk?(['w', 's', 'e', 'n', 'n', 'e', 's', 'w', 'w', 'w']) # => false
 
 $sut->tenMinuteWalk?(['w', 's']) # => false
