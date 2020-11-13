@@ -1,5 +1,10 @@
 package walk
 
 func Run(directions []string) bool {
-	return true
+	if len(directions) != 10 {
+		return false
+	} else {
+		return true
+	}
+
 }
